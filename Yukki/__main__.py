@@ -87,7 +87,7 @@ async def initiate_bot():
     try:
         await app.send_message(
             LOG_GROUP_ID,
-            "<b>Congrats!! Music Bot has started successfully!</b>",
+            "<b>Congrats!! Groovy Music Bot has started successfully!</b>",
         )
     except Exception as e:
         print(
@@ -106,7 +106,7 @@ async def initiate_bot():
         try:
             await ASS_CLI_1.send_message(
                 LOG_GROUP_ID,
-                "<b>Congrats!! Assistant Client 1  has started successfully!</b>",
+                "<b>Congrats!! Groovy Music Assistant  1  has started successfully!</b>",
             )
         except Exception as e:
             print(
@@ -125,7 +125,7 @@ async def initiate_bot():
         try:
             await ASS_CLI_2.send_message(
                 LOG_GROUP_ID,
-                "<b>Congrats!! Assistant Client 2 has started successfully!</b>",
+                "<b>Congrats!! Groovy Music Assistant  2  has started successfully!</b>",
             )
         except Exception as e:
             print(
@@ -144,7 +144,7 @@ async def initiate_bot():
         try:
             await ASS_CLI_3.send_message(
                 LOG_GROUP_ID,
-                "<b>Congrats!! Assistant Client 3 has started successfully!</b>",
+                "<b>Congrats!! Groovy Music Assistant  3  has started successfully!</b>",
             )
         except Exception as e:
             print(
@@ -163,7 +163,7 @@ async def initiate_bot():
         try:
             await ASS_CLI_4.send_message(
                 LOG_GROUP_ID,
-                "<b>Congrats!! Assistant Client 4 has started successfully!</b>",
+                "<b>Congrats!! Groovy Music Assistant  4  has started successfully!</b>",
             )
         except Exception as e:
             print(
@@ -182,7 +182,7 @@ async def initiate_bot():
         try:
             await ASS_CLI_5.send_message(
                 LOG_GROUP_ID,
-                "<b>Congrats!! Assistant Client 5 has started successfully!</b>",
+                "<b>Congrats!! Groovy Music Assistant  5  has started successfully!</b>",
             )
         except Exception as e:
             print(
@@ -214,7 +214,7 @@ async def initiate_bot():
             await LOG_CLIENT.join_chat("YukkiSupport")
         except:
             pass
-    console.print(f"└[red] Yukki Music Bot Boot Completed.")
+    console.print(f"└[red] Groovy Music Bot Boot Completed.")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
@@ -230,10 +230,11 @@ async def initiate_bot():
 
 
 home_text_pm = f"""Hello ,
-My name is {BOT_NAME}.
-A Telegram Music+Video Streaming bot with some useful features
+ Welcome 🙏 to the [Groovy Music Bot](https://t.me/Groovy_Music_Bot).
 
-Special Thanks For Yukki Music .
+**A telegram bot for which is help to play songs in Video Chat 🎧**
+
+Special Thanks For Yukki Music.
 
 All commands can be used with: / """
 
@@ -314,7 +315,7 @@ async def start_command(_, message):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**Video Track Information**__
+🔍__**Video Track Information by @NBOT_TEAM**__
 
 ❇️**Title:** {title}
 
@@ -325,7 +326,7 @@ async def start_command(_, message):
 📎**Channel Link:** [Visit From Here]({channellink})
 🔗**Video Link:** [Link]({link})
 
-⚡️ __Searched Powered By {BOT_NAME}__"""
+⚡️ __Searched Powered By [Groovy Music Bot](https://t.me/Groovy_Music_Bot)__"""
             key = InlineKeyboardMarkup(
                 [
                     [
