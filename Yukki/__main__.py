@@ -230,9 +230,10 @@ async def initiate_bot():
 
 
 home_text_pm = f"""Hey,
+
  **Ayubowan** 🙏 to the [Yakka Music Bot](https://t.me/YakkaMusicbot).
 
-**💫 A telegram bot for which is help to play songs in Video Chat 🎧**
+**A telegram bot for which is help to play songs in Video Chat 🎧**
 
 Sri Lankan superb Music play bot👊.
 
