@@ -229,12 +229,12 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hello ,
- Welcome 🙏 to the [Groovy Music Bot](https://t.me/Groovy_Music_Bot).
+home_text_pm = f"""Hey,
+ **Ayubowan** 🙏 to the [Yakka Music Bot](https://t.me/YakkaMusicbot).
 
-**A telegram bot for which is help to play songs in Video Chat 🎧**
+**💫 A telegram bot for which is help to play songs in Video Chat 🎧**
 
-Special Thanks For Yukki Music.
+Sri Lankan superb Music play bot👊.
 
 All commands can be used with: / """
 
